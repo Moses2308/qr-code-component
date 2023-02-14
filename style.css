@@ -3,3 +3,24 @@
     --color-grayishBlue : hsl(220, 15%, 55%);
     --color-darkBlue : hsl(218, 44%, 22%);
 }
+
+body{
+    background-color: var(--color-lightGray);
+    display: grid;
+    place-items: center;
+
+}
+
+.code-card{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1.25rem;
+}
+.code-img{
+    border-radius: 1rem;
+}
+
+.code-card__text{
+    color: var(--color-darkBlue);
+    text-align: center;
+}
