@@ -8,19 +8,35 @@ body{
     background-color: var(--color-lightGray);
     display: grid;
     place-items: center;
-
 }
 
 .code-card{
     background-color: white;
     padding: 1rem;
-    border-radius: 1.25rem;
+    border-radius: 1rem;
+    margin : 2rem;
+    --card-content-spacing : 1rem;
+
+    max-width: 310px;
 }
 .code-img{
-    border-radius: 1rem;
+    border-radius: 0.75rem;
+    margin-bottom: var(--card-content-spacing);
 }
 
 .code-card__text{
     color: var(--color-darkBlue);
     text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    padding: 0.5rem;
+}
+.code-card__text h1{
+    font-weight: 700;
+    margin-bottom: var(--card-content-spacing);
+}
+.code-card__text p{
+    color: var(--color-grayishBlue);
+    font-weight: 400;
+    margin-bottom: var(--card-content-spacing);
 }
