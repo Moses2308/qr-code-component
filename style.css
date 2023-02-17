@@ -8,6 +8,7 @@ body{
     background-color: var(--color-lightGray);
     display: grid;
     place-items: center;
+    min-height: 100vh;
 }
 
 .code-card{
